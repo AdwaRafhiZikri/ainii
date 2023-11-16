@@ -1,0 +1,132 @@
+*{
+    padding:0px;
+    margin:0px;
+    }
+    #site-container{
+    width:960px;
+    height:auto;
+    margin:20px auto;
+    background:#a09f9f;
+    padding-top:5px;
+    padding-bottom:5px;
+    }
+   
+    #header{
+        width:900px;
+        height:300px;
+        background:url(https://cdn1.katadata.co.id/media/images/thumb/2022/12/30/SINOPSIS_LOOKISM-2022_12_30-12_49_33_c9c2adf4171e53dbe6467c9f800c6312_960x640_thumb.png);
+        margin:5px auto;
+        padding-top:150px;
+        padding-left:50px; 
+        }
+        #header a{
+            font:28pt 'Matura MT Script Capitals';
+            text-decoration:none;
+            color:#666666;
+        }
+        #header p{
+        font:20pt 'Brush Script Std';
+        color:#ffffff;
+        }
+
+        #menu-content{
+            width:950px;
+            height:auto;
+            margin:5 auto;
+            }
+
+            #menu{
+                float:left;
+                width:300px;
+                height:auto;
+                }
+
+                .judul_1{
+                    display:block;
+                    height:40px;
+                    background:#64635e;
+                    font:20pt "Script MT Bold";
+                    color:#fff;
+                    text-align:center;
+                    border:1px solid rgb(255, 254, 254);
+                    }
+
+                    #menu ul{
+                        list-style:none;
+                        }
+
+                        #menu li a{
+                            display:block;
+                            height:30px;
+                            background:#a7a39c;
+                            font:16pt "Script MT Bold";
+                            color:#ffffff;
+                            text-decoration:none;
+                            border-bottom:1px solid rgb(255, 255, 255);
+                            border-left:1px solid rgb(255, 255, 255);
+                            border-right:1px solid rgb(255, 255, 255);
+                            padding-left:20px;
+                            }
+                           
+                            #menu li a:hover{
+                                background:#666633;
+                                color:#fff;
+                                }
+                                
+                                #content{
+                                font: 15pxpt "Arial";
+                                color:#ffffff;
+                                float:right;
+                                width:610px;
+                                height:auto;
+                                /*border:1px solid #000;*/
+                                background:#666666;
+                                padding:15px;
+                                }
+
+                                .judul_2{
+                                    display:block;
+                                    border-bottom:2px solid #64635e;
+                                    font:26pt "Script MT Bold";
+                                    color:#ffffff;
+                                    padding-bottom:10px;
+                                    }
+                                    
+                                    .img{
+                                    width:250px;
+                                    height:200px;
+                                    border:5px solid #64635e;
+                                    margin-top:20px;
+                                    margin-right:20px;
+                                    float:left;
+                                    }
+                                        
+                                    #content p{
+                                        margin-top:20px;
+                                    }
+
+                #footer{
+                    width:950px;
+                    height:40px;
+                    margin-top:5px;
+                    margin-bottom:0px;
+                    margin-right:auto;
+                    margin-left:auto;
+                    background:#666666;
+                    text-align:center;
+                    padding-top:30px;
+                    font-weight:bold;
+                    color:#fff;
+                    border:1px solid #64635e;
+                    }
+
+                    .floating{
+                        clear:both;
+                        height:0px;
+                        line-height:0px;
+                    }
+
+                    body{
+                        background:#535352;
+                        font:10pt verdana;
+                        }
